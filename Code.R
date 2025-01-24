@@ -3,7 +3,7 @@
 library(VIM)
 
 # Read the dataset into R
-sleep_data <- read.csv("sleep_data.csv")
+sleep_data <- read.csv("data.csv")
 
 # Analyse missing values
 a <- aggr(sleep_data, plot = FALSE)
